@@ -10,6 +10,8 @@ end
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 new_hash = create_olympics_hash
+new_hash{:Atlanta} = "1996"
+new_hash
 end
 
 def iterate_through_hash
