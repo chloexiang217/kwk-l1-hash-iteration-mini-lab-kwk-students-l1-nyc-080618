@@ -13,7 +13,7 @@ new_hash
 end
 
 def iterate_through_hash
-  add_a_key_value_pair.each 
+  add_a_key_value_pair.each {|key, value| puts
 end
 
 def iterate_through_keys
